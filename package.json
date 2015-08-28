@@ -1,0 +1,23 @@
+{
+  "name": "nep-env",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require should --reporter List --check-leaks test/"
+  },
+  "devDependencies": {
+    "mocha": "^2.1.0",
+    "should": "^5.0.0"
+  },
+  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bigfactory/nep-env.git"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^3.10.1",
+    "mkdirp": "^0.5.1"
+  }
+}
