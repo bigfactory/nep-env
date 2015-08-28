@@ -55,7 +55,7 @@ exports.lookup = function(prefix, name){
         return false;
     }
 
-    return true;
+    return require(name);
 };
 
 
